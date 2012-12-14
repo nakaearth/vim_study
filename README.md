@@ -1,9 +1,8 @@
 vim_study
 =========
 
-~~~bash
-git init
-git submodule add git://github.com/Shougo/neobundle.vim .vim/bundle/neobundle.vim
-git add .
-git commit
-~~~
+```bash
+git clone git@github.com:ryshinoz/vim_study.git
+git submodule init
+git submodule update
+```
